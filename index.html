@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bibliotecas de Componentes UI</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .accordion {
+        cursor: pointer;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 4px;
+      }
+      .accordion:hover {
+        background-color: #0056b3;
+      }
+      .panel {
+        display: none;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-top: none;
+        background-color: #fafafa;
+        border-radius: 0 0 4px 4px;
+      }
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bibliotecas de Componentes UI</h1>
+
+      <div class="accordion">CSS Libraries</div>
+      <div class="panel">
+        <ul>
+          <li>
+            <a href="https://getbootstrap.com" target="_blank">Bootstrap</a>:
+            Popular framework de componentes basado en CSS, con una gran
+            comunidad y ecosistema de plugins.
+          </li>
+          <li>
+            <a href="https://bulma.io" target="_blank">Bulma</a>: Framework CSS
+            ligero, moderno, y muy personalizable, basado en Flexbox.
+          </li>
+          <li>
+            <a href="https://foundation.zurb.com" target="_blank">Foundation</a
+            >: Un framework avanzado de CSS, orientado a proyectos
+            empresariales.
+          </li>
+          <li>
+            <a href="https://semantic-ui.com" target="_blank">Semantic UI</a>:
+            Librería con un enfoque en la semántica y la legibilidad del código.
+          </li>
+          <li>
+            <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a>:
+            Framework de utilidad para diseñar directamente en el HTML con
+            clases predefinidas.
+          </li>
+        </ul>
+      </div>
+
+      <div class="accordion">Bibliotecas basadas en Tailwind CSS</div>
+      <div class="panel">
+        <ul>
+          <li>
+            <a href="https://daisyui.com" target="_blank">DaisyUI</a>:
+            Componentes estilizados basados en Tailwind para construir
+            interfaces rápidamente.
+          </li>
+          <li>
+            <a href="https://flowbite.com" target="_blank">Flowbite</a>:
+            Biblioteca de componentes UI diseñada sobre Tailwind CSS con soporte
+            para React, Vue y otros.
+          </li>
+          <li>
+            <a href="https://headlessui.dev" target="_blank">Headless UI</a>:
+            Componentes sin estilo integrados a la perfección con Tailwind CSS,
+            compatibles con React y Vue.
+          </li>
+          <li>
+            <a href="https://merakiui.com" target="_blank">Meraki UI</a>:
+            Conjunto de componentes gratuitos basados en Tailwind CSS para
+            interfaces modernas.
+          </li>
+        </ul>
+      </div>
+
+      <div class="accordion">Bibliotecas UI solo para React</div>
+      <div class="panel">
+        <ul>
+          <li>
+            <a href="https://mui.com" target="_blank">Material UI</a>:
+            Implementación de componentes de Material Design para React.
+          </li>
+          <li>
+            <a href="https://chakra-ui.com" target="_blank">Chakra UI</a>:
+            Componentes accesibles, modernos y flexibles para React.
+          </li>
+          <li>
+            <a href="https://ant.design" target="_blank">Ant Design</a>: Sistema
+            de diseño de componentes para aplicaciones empresariales de React.
+          </li>
+          <li>
+            <a href="https://blueprintjs.com" target="_blank">Blueprint</a>:
+            Componentes de interfaz de usuario diseñados para aplicaciones
+            complejas y empresariales en React.
+          </li>
+          <li>
+            <a href="https://evergreen.segment.com" target="_blank">Evergreen</a
+            >: Librería de componentes que prioriza la personalización y la
+            estética limpia.
+          </li>
+          <li>
+            <a href="https://rebassjs.org" target="_blank">Rebass</a>: Conjunto
+            de componentes basados en Styled System para React.
+          </li>
+        </ul>
+      </div>
+
+      <div class="accordion">Bibliotecas UI solo para Angular</div>
+      <div class="panel">
+        <ul>
+          <li>
+            <a href="https://material.angular.io" target="_blank"
+              >Angular Material</a
+            >: Componentes de Material Design implementados específicamente para
+            Angular.
+          </li>
+          <li>
+            <a href="https://ng.ant.design" target="_blank">NG-ZORRO</a>:
+            Componentes UI basados en Ant Design pero optimizados para Angular.
+          </li>
+          <li>
+            <a href="https://primefaces.org/primeng" target="_blank">PrimeNG</a
+            >: Colección rica en componentes UI para Angular con soporte
+            avanzado de tablas, formularios y más.
+          </li>
+          <li>
+            <a href="https://akveo.github.io/nebular" target="_blank">Nebular</a
+            >: Conjunto de componentes basados en diseños modernos y con soporte
+            para temas oscuros.
+          </li>
+        </ul>
+      </div>
+
+      <div class="accordion">Bibliotecas UI solo para Vue</div>
+      <div class="panel">
+        <ul>
+          <li>
+            <a href="https://vuetifyjs.com" target="_blank">Vuetify</a>:
+            Implementación completa de Material Design para Vue.
+          </li>
+          <li>
+            <a href="https://quasar.dev" target="_blank">Quasar Framework</a>:
+            Biblioteca de componentes y herramientas para crear aplicaciones Vue
+            responsive y con un gran rendimiento.
+          </li>
+          <li>
+            <a href="https://element.eleme.io" target="_blank">Element UI</a>:
+            Componentes UI con un diseño minimalista y adaptado para la web
+            moderna.
+          </li>
+          <li>
+            <a href="https://buefy.org" target="_blank">Buefy</a>: Componentes
+            basados en Bulma CSS para Vue.
+          </li>
+          <li>
+            <a href="https://bootstrap-vue.org" target="_blank">BootstrapVue</a
+            >: Componentes basados en Bootstrap adaptados para Vue.js.
+          </li>
+        </ul>
+      </div>
+
+      <div class="accordion">
+        Bibliotecas UI para aplicaciones móviles (React Native)
+      </div>
+      <div class="panel">
+        <ul>
+          <li>
+            <a href="https://reactnativepaper.com" target="_blank"
+              >React Native Paper</a
+            >: Implementación de Material Design para aplicaciones React Native.
+          </li>
+          <li>
+            <a href="https://nativebase.io" target="_blank">NativeBase</a>:
+            Componentes accesibles y listos para usar en React Native.
+          </li>
+          <li>
+            <a href="https://reactnativeelements.com" target="_blank"
+              >React Native Elements</a
+            >: Biblioteca de componentes altamente personalizables y
+            simplificados para aplicaciones móviles.
+          </li>
+        </ul>
+      </div>
+
+      <div class="accordion">Bibliotecas basadas en Svelte</div>
+      <div class="panel">
+        <ul>
+          <li>
+            <a href="https://sveltematerialui.com" target="_blank"
+              >Svelte Material UI</a
+            >: Componentes UI basados en Material Design para Svelte.
+          </li>
+          <li>
+            <a href="https://sveltestrap.js.org" target="_blank">SvelteStrap</a
+            >: Implementación de Bootstrap para Svelte.
+          </li>
+          <li>
+            <a href="https://carbon-svelte.vercel.app" target="_blank"
+              >Carbon Components Svelte</a
+            >: Componentes Svelte basados en el sistema de diseño de IBM Carbon.
+          </li>
+        </ul>
+      </div>
+
+      <div class="accordion">Librerías agnósticas y multi-framework</div>
+      <div class="panel">
+        <ul>
+          <li>
+            <a href="https://primefaces.org" target="_blank"
+              >PrimeReact / PrimeNG / PrimeVue</a
+            >: Componentes avanzados disponibles para React, Angular y Vue.
+          </li>
+          <li>
+            <a href="https://carbondesignsystem.com" target="_blank"
+              >Carbon Design System</a
+            >: Sistema de diseño de IBM con implementaciones para React,
+            Angular, Vue y otros.
+          </li>
+          <li>
+            <a href="https://clarity.design" target="_blank"
+              >Clarity Design System</a
+            >: Sistema de diseño de VMware con implementaciones para Angular y
+            soporte de web components.
+          </li>
+          <li>
+            <a href="https://onsen.io" target="_blank">Onsen UI</a>: Biblioteca
+            para el desarrollo de aplicaciones móviles, compatible con Vue,
+            React, Angular y Vanilla JS.
+          </li>
+        </ul>
+      </div>
+
+      <div class="accordion">
+        Frameworks y librerías para aplicaciones de diseño de interacción
+      </div>
+      <div class="panel">
+        <ul>
+          <li>
+            <a href="https://framer.com/motion" target="_blank">Framer Motion</a
+            >: Biblioteca para animaciones en React.
+          </li>
+          <li>
+            <a href="https://lottiefiles.com" target="_blank">Lottie</a>:
+            Animaciones ligeras exportadas desde After Effects y compatibles con
+            la mayoría de los frameworks.
+          </li>
+        </ul>
+      </div>
+
+      <div class="accordion">Otras</div>
+      <div class="panel">
+        <ul>
+          <li>
+            <a href="https://tachyons.io" target="_blank">Tachyons</a>:
+            Biblioteca CSS que facilita la creación de interfaces mediante
+            clases funcionales.
+          </li>
+          <li>
+            <a href="https://getuikit.com" target="_blank">UIKit</a>: Framework
+            CSS modular y ligero para construir interfaces web rápidas y
+            funcionales.
+          </li>
+          <li>
+            <a href="https://materializecss.com" target="_blank">Materialize</a
+            >: Componentes basados en Material Design para aplicaciones web.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      const accordions = document.querySelectorAll(".accordion");
+      accordions.forEach((accordion) => {
+        accordion.addEventListener("click", function () {
+          this.nextElementSibling.style.display =
+            this.nextElementSibling.style.display === "block"
+              ? "none"
+              : "block";
+        });
+      });
+    </script>
+  </body>
+</html>
